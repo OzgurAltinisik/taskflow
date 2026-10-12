@@ -64,7 +64,22 @@ taskflow/
 
 ## Test
 
-Tüm endpoint'ler Postman ile test edilmiştir. Test ekran görüntüleri `docs/postman-tests/` klasöründe yer almaktadır.
+Tüm CRUD endpoint'leri Postman ile test edilmiştir.
+
+### POST /tasks — Görev Ekleme
+![POST](<Postman Test Ekran Görüntüleri/POST Tasks Görev Ekleme.png>)
+
+### GET /tasks — Tüm Görevleri Listeleme
+![GET all](<Postman Test Ekran Görüntüleri/GET Tasks Tüm Görevleri Listele.png>)
+
+### GET /tasks/:id — Görev Detayı
+![GET one](<Postman Test Ekran Görüntüleri/GET Tasks id Görev Detayı.png>)
+
+### PUT /tasks/:id — Görev Güncelleme
+![PUT](<Postman Test Ekran Görüntüleri/PUT Tasks id Görev Güncelleme.png>)
+
+### DELETE /tasks/:id — Görev Silme
+![DELETE](<Postman Test Ekran Görüntüleri/DELETE Tasks id Görev Silme.png>)
 
 ## Kullanılan Teknolojiler
 
